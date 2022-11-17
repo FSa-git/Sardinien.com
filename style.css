@@ -64,3 +64,8 @@ button{
 button:hover{
     background-color: rgba(0, 136, 169, 0.8);
 }
+
+table{
+    border-style: dotted;
+    color: black;
+}
