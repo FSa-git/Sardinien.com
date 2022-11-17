@@ -1,0 +1,14 @@
+body{
+    background-color: gray;
+}
+text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+h1{
+    color: white;
+}
+img{
+    width: 100%;
+    max-height: 25%;
+}
