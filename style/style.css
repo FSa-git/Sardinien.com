@@ -1,8 +1,14 @@
 /*
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 */
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Varela+Round&display=swap');
+*/
+
 body{
     background-color: #E0B652;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /*text{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -46,6 +52,7 @@ header{
 .nav__links li {
     display: inline-block;
     padding: 0px 20px;
+    background-color: rgb(161, 151, 106);
 }
 
 .nav__links li a {
@@ -97,9 +104,17 @@ table{
 }
 
 .divstadt{
+    
     background-color: grey;
     margin-right: 75%;
     text-align: center;
+    /*
+    mask-image: url(/images/stadt_klein.jpg);
+    */
+    width: 340px;
+    height: 226px;
+    box-shadow: gray;
+    background-image: url(/images/stadt_klein.jpg);
     
 }
 .ende{
