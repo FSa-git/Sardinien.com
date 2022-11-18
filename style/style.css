@@ -41,8 +41,8 @@ header{
 
 .logo{
     cursor: pointer;
-    max-height: 22px;
-    max-width: 22px;
+    max-height: 100px;
+    max-width: 100px;
 }
 
 .nav__links {
