@@ -25,7 +25,7 @@ img{
 }
 
 li,a,button{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: beige;
@@ -88,35 +88,41 @@ table{
 }
 
 .divstrand{
-    background-color: yellow;
-    margin-left: 30%;
+    
+    margin-left: 35%;
     text-align: center;
-    margin-right: 45%;
-    margin-top: -2%;
+    margin-right: 40%;
+    margin-top: -400px;
     height: 30%;
+    width: 30%;
+    height: 400px;
+}
+.divstrand:hover{
+    transform: scale(1.1);
 }
 
 .divbegre{
     background-color: green;
-    margin-left: 60%;
+    margin-left: 69%;
     text-align: center;
-    margin-top: -2%;
+    margin-top: -400px;
+    width: 30%;
+    height: 400px;
+}
+.divbegre:hover{
+    transform: scale(1.1);
 }
 
-.divstadt{
-    
-    background-color: grey;
+.divstadt{ 
     margin-right: 75%;
     text-align: center;
-    /*
-    mask-image: url(/images/stadt_klein.jpg);
-    */
-    width: 340px;
-    height: 226px;
-    box-shadow: gray;
-    background-image: url(/images/stadt_klein.jpg);
-    
+    width: 30%;
+    height: 400px;
 }
+.divstadt:hover{
+    transform: scale(1.1);
+}
+
 .ende{
     color: black;
     width: 10px;
@@ -136,4 +142,21 @@ table{
     
 }
 */
+.description{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.unten{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
 
+h2{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.neues:hover img{
+    transform: scale(1.1);
+}
