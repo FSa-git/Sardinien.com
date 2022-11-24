@@ -1,2 +1,2 @@
 # Sardinien.com
- Dieses Projekt handelt über eine fiktive Website
+ Dieses Projekt handelt über eine imaginäre Website..
