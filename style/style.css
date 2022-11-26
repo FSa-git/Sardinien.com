@@ -87,37 +87,39 @@ table{
     border-radius: 2px;
 }
 
-.divstrand{
-    
-    margin-left: 35%;
-    text-align: center;
-    margin-right: 40%;
-    margin-top: -400px;
-    height: 30%;
-    width: 30%;
+.parent1{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    /*align-items: center;*/
+    width: 100%;
     height: 400px;
+    text-align: center;
+    margin: 10px;
+    border: 2px solid white;
+    padding: 1em;
 }
+
+.divstrand{
+    flex-grow: 1;
+    overflow: hidden;   
+}
+
 .divstrand:hover{
     transform: scale(1.1);
 }
 
 .divbegre{
-    background-color: green;
-    margin-left: 69%;
-    text-align: center;
-    margin-top: -400px;
-    width: 30%;
-    height: 400px;
+    flex-grow: 1;
 }
 .divbegre:hover{
     transform: scale(1.1);
 }
 
 .divstadt{ 
-    margin-right: 75%;
-    text-align: center;
-    width: 30%;
-    height: 400px;
+    flex-grow: 1;
 }
 .divstadt:hover{
     transform: scale(1.1);
