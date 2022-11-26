@@ -99,12 +99,17 @@ table{
     text-align: center;
     margin: 10px;
     border: 2px solid white;
-    padding: 1em;
+    overflow: hidden;
+}
+
+.parent1:hover img{
+    transform: scale(1.1);
 }
 
 .divstrand{
     flex-grow: 1;
-    overflow: hidden;   
+    transition: all 0.3s;
+    transform: scale(1); 
 }
 
 .divstrand:hover{
@@ -113,12 +118,16 @@ table{
 
 .divbegre{
     flex-grow: 1;
+    transition: all 0.3s;
+    flex-grow: 1;
 }
 .divbegre:hover{
     transform: scale(1.1);
 }
 
 .divstadt{ 
+    flex-grow: 1;
+    transition: all 0.3s;
     flex-grow: 1;
 }
 .divstadt:hover{
