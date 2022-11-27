@@ -178,7 +178,7 @@ table{
 */
 .description{
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: black;
 }
 .unten{
     background-color: black;
@@ -188,6 +188,10 @@ table{
 }
 
 h2{
-    color: white;
+    color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.source{
+    color: black;
 }
