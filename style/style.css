@@ -22,7 +22,7 @@ body{
 
 h1{
     color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h2{
     font-style: italic;
@@ -63,7 +63,7 @@ header{
 .nav__links li {
     display: inline-block;
     padding: 0px 20px;
-    background-color: rgb(161, 151, 106);
+    background-color: rgba(0, 136, 169, 1);
 }
 
 .nav__links li a {
