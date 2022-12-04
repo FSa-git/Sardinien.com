@@ -182,6 +182,12 @@ table{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
+
+.lesemehr{
+    color: black;
+    font-style: italic;
+}
+
 .unten{
     background-color: black;
     width: 100%;
