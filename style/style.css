@@ -71,7 +71,7 @@ header{
 }
 
 .nav__links li a:hover {
-    color: blueviolet;
+    color: rgb(0, 0, 0);
 }
 
 button{
