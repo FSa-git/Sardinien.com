@@ -184,6 +184,7 @@ table{
 }
 
 .lesemehr{
+    text-decoration: underline;
     color: black;
     font-style: italic;
 }
