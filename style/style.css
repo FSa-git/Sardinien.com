@@ -149,7 +149,6 @@ table{
     flex-grow: 1;
     transition: all 0.3s;
     flex-grow: 1;
-    text-align: center;
 }
 .divstadt:hover{
     transform: scale(1.1);
@@ -207,7 +206,7 @@ h2{
 }
 
 .centerlink{
-    text-align: center;
-    padding-bottom: 100px;
-    color: brown;
+    margin-top: 100px;
+    padding-top: 100px;
+    color: black;
 }
