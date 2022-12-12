@@ -159,14 +159,13 @@ table{
     padding-top: 5px;
 }
 
-.ende{
-    color: black;
-    width: 10px;
-    height: 10px;
+.Ende{
+    color: white;
 }
 
 .zitat{
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
     font-size: medium;
 }
 /*
