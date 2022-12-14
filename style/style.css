@@ -223,4 +223,6 @@ h2{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     font-style: oblique;
+    width: auto;
+    height: 400px;
 }
