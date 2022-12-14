@@ -217,3 +217,10 @@ h2{
     padding-top: 100px;
     color: black;
 }
+
+.stadt_link{
+    background-color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-style: oblique;
+}
