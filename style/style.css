@@ -10,6 +10,7 @@ body{
     background-color: #e5e1d6;
     font-family: Arial, Helvetica, sans-serif;
     background-size: cover;
+    width: 1080px;
 }
 
 .titelbild{
@@ -120,7 +121,7 @@ table{
     border: 2px solid white;
     overflow: hidden;
 }
-
+/*
 .parent2{
     background-color: black;
     display: flex;
@@ -129,6 +130,7 @@ table{
     height: 250px;
     overflow: hidden;
 }
+*/
 
 .parent1:hover img{
     transform: scale(1.1);
