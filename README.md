@@ -1,4 +1,4 @@
-#1 Sardinien.com
+# Sardinien.com
  
 ## Summary
 
