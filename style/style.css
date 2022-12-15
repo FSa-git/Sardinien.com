@@ -232,3 +232,10 @@ h2{
 .linkedin{
     background-color: rgba(0, 0, 0, 0.541);
 }
+
+.fuss{
+    background-color: rgba(0, 0, 0, 0.618);
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
