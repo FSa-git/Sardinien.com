@@ -105,6 +105,12 @@ button:hover{
     text-align: center;
 }
 
+.tab1{
+}
+.tab2{
+    float: right;
+}
+
 table{
     border-style: outset;
     color: black;
@@ -255,8 +261,10 @@ h2{
     height: 85px;
 }
 .fusscnt1{
-   
 }
-.fusscnt2{
-    
+.fusscnt2{   
+}
+.werbung{
+    width: 200px;
+    height: 150px;
 }
