@@ -80,6 +80,7 @@ header{
 
 .nav__links li a {
     transition: all 0.3s ease 0s;
+    font-size: 20px;
 }
 
 .nav__links li a:hover {
@@ -93,6 +94,7 @@ button{
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    font-size: 20px;
 }
 
 button:hover{
