@@ -16,3 +16,6 @@ Hence, I chose for doing a website for the superb Island of Sardinia.
 - All the images that are shown on this website are totally legal downloaded on unsplash.com 
 - Informations about Sardinia where all searched on sources as Wikipedia and Google (See Source Section on the Website)
 
+## Viewcounter
+
+[![Image of https://github.com/FSa-git/myFirstViewCounter](https://github.com/FSa-git/myFirstViewCounter/blob/master/svg/profile/badge.svg)](https://github.com/FSa-git/myFirstViewCounter)
