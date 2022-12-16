@@ -214,7 +214,7 @@ table{
 }
 
 .lesemehr:hover{
-    background-color: rgba(0, 136, 169, 1);
+    background-color: rgba(0, 135, 169, 0.574);
 }
 h2{
     color: black;
@@ -249,4 +249,14 @@ h2{
     color: white;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fussbild{
+    width: 150px;
+    height: 85px;
+}
+.fusscnt1{
+   
+}
+.fusscnt2{
+    
 }
