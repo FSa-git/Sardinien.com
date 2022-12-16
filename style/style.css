@@ -14,7 +14,7 @@ body{
 }
 
 html {
-    font-size: 100%;
+    font-size: 105%;
     }
 
 .titelbild{
@@ -25,6 +25,11 @@ html {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
 }*/
+
+.container1{
+    margin:0 auto; /* this will center the page */
+    width:960px; /*  use your width here */
+}
 
 h1{
     color: black;
@@ -202,6 +207,7 @@ table{
     font-style: italic;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    border-radius: none;
     
 }
 
