@@ -9,9 +9,13 @@
 body{
     background-color: #e5e1d6;
     font-family: Arial, Helvetica, sans-serif;
-    height: max-content;
-    width: 1080px;
+    height: auto;
+    width: 100%;
 }
+
+html {
+    font-size: 100%;
+    }
 
 .titelbild{
     width: 100%;
@@ -196,8 +200,14 @@ table{
     text-decoration: underline;
     color: black;
     font-style: italic;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
 }
 
+.lesemehr:hover{
+    background-color: rgba(0, 136, 169, 1);
+}
 .unten{
     background-color: black;
     width: 100%;
