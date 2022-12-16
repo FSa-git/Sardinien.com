@@ -61,11 +61,26 @@ header{
     align-items: center;
     padding: 30px 10%;
 }
+.cta{
+    margin-left: 40px;
+}
 
 .logo{
     cursor: pointer;
     max-height: 150px;
     max-width: 150px;
+    margin-right: 20px;
+}
+nav{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.387);
 }
 
 .nav__links {
@@ -95,6 +110,12 @@ button{
     cursor: pointer;
     transition: all 0.3s ease 0s;
     font-size: 20px;
+}
+.likecounter{
+    background-color: orange;
+}
+.likecounter:hover{
+    background-color: cadetblue;
 }
 
 button:hover{
