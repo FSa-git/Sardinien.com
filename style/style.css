@@ -196,15 +196,24 @@ table{
     transform: scale(1.1);
 }
 
-.divstadt{ 
+.divstadt { 
     flex-grow: 1;
     transition: all 0.3s;
-    transform: scale(1); 
 }
-.divstadt:hover{
+
+.divstadt:hover {
     transform: scale(1.1);
 }
 
+.divstadt a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.divstadt a:hover {
+    transform: none;
+}
 .ref{
     text-align: center;
     padding-top: 5px;
@@ -255,10 +264,19 @@ h2{
     color: black;
 }
 
-.centerlink{
+/*.centerlink{
     margin-top: 100px;
     padding-top: 100px;
     color: black;
+}*/
+
+.centerlink {
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .stadt_link{
