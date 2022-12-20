@@ -278,21 +278,12 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
-
-.stadt_link{
-    background-color: blueviolet;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    font-style: oblique;
-    width: auto;
-    height: 400px;
-}
-
 .linkedin{
     background-color: rgba(0, 0, 0, 0.541);
 }
-
 .fuss{
     background-color: rgba(0, 0, 0, 0.489);
     color: white;
