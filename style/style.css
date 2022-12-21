@@ -291,3 +291,21 @@ h2{
     width: 200px;
     height: 150px;
 }
+/* buch */
+figure{
+    position: relative;
+    width: 400px;
+    box-shadow: 4px 6px 22px 1px rgba(0, 0, 0, 0.75);
+}
+figcaption{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: rgba(100, 28, 52, 0.7);
+    /* padding: 0.75rem; */
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
