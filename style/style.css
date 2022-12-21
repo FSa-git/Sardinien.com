@@ -267,19 +267,22 @@ h2{
     font-weight: bold;
     font-style: oblique;
 }
-.linkedin{
-    background-color: rgba(0, 0, 0, 0.541);
-}
 .fuss{
     background-color: rgba(0, 0, 0, 0.489);
     color: white;
     text-align: center;
+    width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .fussbild{
     width: 150px;
     height: 85px;
 }
+.fuss_main:hover{
+    color: black;
+    background-color: #ffca67;
+}
+
 .fusscnt1{
 }
 .fusscnt2{   
