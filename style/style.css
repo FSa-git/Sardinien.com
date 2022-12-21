@@ -173,7 +173,6 @@ table{
     overflow: hidden;
 }
 */
-
 .parent1:hover img{
     transform: scale(1.1);
 }
@@ -201,17 +200,9 @@ table{
     flex-grow: 1;
     transition: all 0.3s;
 }
-
 .divstadt:hover {
     transform: scale(1.1);
 }
-
-.divstadt a {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
 .divstadt a:hover {
     transform: none;
 }
@@ -264,22 +255,16 @@ h2{
 .source{
     color: black;
 }
-
-/*.centerlink{
-    margin-top: 100px;
-    padding-top: 100px;
-    color: black;
-}*/
-
 .centerlink {
     display: block;
-    width: 100%;
+    width: 100%; /* lässt den anker mittig platzieren*/
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    font-style: oblique;
 }
 .linkedin{
     background-color: rgba(0, 0, 0, 0.541);
