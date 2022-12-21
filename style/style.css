@@ -257,6 +257,7 @@ h2{
 }
 .centerlink {
     display: block;
+    color: rgb(255, 119, 0);
     width: 100%; /* lässt den anker mittig platzieren*/
     height: 100%;
     display: flex;
