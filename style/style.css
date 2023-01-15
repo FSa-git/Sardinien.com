@@ -5,6 +5,15 @@
 /*
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Varela+Round&display=swap');
 */
+
+/* Media Query für kleine Bildschirme */
+@media (max-width: 720px) {
+    .item {
+      flex-basis: 100%;
+      width: 100%; /* take the full width of the screen */
+    }
+  }
+
 body{
     /*background-color: #e5e1d6;*/
     /*background-color: linear-gradient(to top, #5200ff, #3300a0, #1f0062, black, black);*/
@@ -311,6 +320,6 @@ figcaption{
 }
 .parent3{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
 }
