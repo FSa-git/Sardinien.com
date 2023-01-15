@@ -14,6 +14,61 @@
     }
   }
 
+  @media (max-width: 576px) {
+    .container1 {
+            max-width: 540px;
+        }
+    }
+
+    /* @media (max-width: 768px) {
+        .container {
+                max-width: 720px;
+            }
+        } */
+
+  @media (max-width: 480px) {
+    .titelbild{
+        max-width: 100%;
+        height: auto;
+    }
+    .nav__links {
+        display: none; /* hide the navigation links */
+      }
+      /* show the hamburger menu */
+      #menu-toggle {
+        display: block;
+      }
+      label {
+        display: block;
+        cursor: pointer;
+        background-image: url(/images/menu_toggle.png);
+        background-repeat: no-repeat;
+        background-size: contain; /* scale the image to fit the element */
+      }
+  }
+
+  /* @media only screen and (min-width: 768px) { nav ul li {
+    display:inline-block;
+}
+nav ul li a {
+    border-right: 1px solid #aaa;
+    width:auto;
+    border-bottom:none;
+}
+nav ul li:last-child a {
+    border-right:none;
+}
+label {
+    background-image: none;
+}
+#menu {
+    display: block;
+}
+#menu-toggle:checked + label {
+    background-image: none;
+}
+} */
+
 body{
     /*background-color: #e5e1d6;*/
     /*background-color: linear-gradient(to top, #5200ff, #3300a0, #1f0062, black, black);*/
@@ -29,8 +84,32 @@ html {
     font-size: 105%;
     }
 
+    
+label {
+    float:right;
+    cursor: pointer;
+    display:block;
+    width:40px;
+    height:40px;
+    color: #5e807f;
+    background-image: url(/images/menu_toggle.png); background-size: 100% auto;
+    
+}
+#menu-toggle {
+    display: none;  /* hide the checkbox */
+    }
+    #menu {
+        display: none;
+    }
+    #menu-toggle:checked ~ #menu {
+        display: block;
+    }
+    #menu-toggle:checked + label {
+    background-image: url(../images/toggle-x.png); }
+
 .titelbild{
     width: 100%;
+    height: auto;
     padding-top: 2px;    
 }
 /*text{
@@ -96,7 +175,7 @@ nav{
 }
 
 .nav__links {
-    list-style: none;
+    display: flex;
 }
 
 .nav__links li {
