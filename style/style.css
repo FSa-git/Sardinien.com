@@ -1,40 +1,7 @@
-/*
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-*/
-
-/*
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Varela+Round&display=swap');
-*/
-
 /* Media Query für kleine Bildschirme */
-@media (max-width: 720px) {
-    .item {
-      flex-basis: 100%;
-      width: 100%; /* take the full width of the screen */
-    }
-  }
 
-  @media (max-width: 576px) {
-    .container1 {
-            max-width: 540px;
-        }
-        /* Hide navigation links on small screens */
-    nav ul {
-        display: none;
-    }
-    /* Show menu toggle button on small screens */
-    #menu-toggle {
-        display: block;
-    }
-    }
-
-    /* @media (max-width: 768px) {
-        .container {
-                max-width: 720px;
-            }
-        } */
-
-  @media (max-width: 400px) {
+    
+  /* @media (min-width: 400px) {
     .container1 {
         max-width: 540px;
     }
@@ -43,9 +10,9 @@
         height: auto;
     }
     .nav__links {
-        display: none; /* hide the navigation links */
+        display: none; /* hide the navigation links 
       }
-      /* show the hamburger menu */
+      /* show the hamburger menu 
      .nav__links-toggle {
         display: block;
       }
@@ -54,31 +21,54 @@
         cursor: pointer;
         background-image: url(/images/menu_toggle.png);
         background-repeat: no-repeat;
-        background-size: contain; /* scale the image to fit the element */
+        background-size: contain; /* scale the image to fit the element 
       } 
-    }
+    } */
 
-  /* @media only screen and (min-width: 400px) { nav ul li {
-    display:inline-block;
+/* Media Query für kleine Bildschirme */
+/*@media (max-width: 720px) {
+    .item {
+      flex-basis: 100%;
+      width: 100%; /* take the full width of the screen 
+    }
+  }*/
+
+    /* Anpassung für kleine Bildschirme (z.B. Smartphones) */
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 1.5rem;
+    }
+    .container1 {
+        max-width: 90%;
+    }
+    /* weitere Anpassungen für kleine Bildschirme */
 }
-nav ul li a {
-    border-right: 1px solid #aaa;
-    width:auto;
-    border-bottom:none;
+
+/* Anpassung für mittelgroße Bildschirme (z.B. Tablets) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        font-size: 1.25rem;
+    }
+    .container1 {
+        max-width: 80%;
+    }
+    .item {
+        flex-basis: 100%;
+        width: 100%; /* take the full width of the screen */
+      }
 }
-nav ul li:last-child a {
-    border-right:none;
+
+/* Anpassung für große Bildschirme (z.B. Desktops) */
+@media only screen and (min-width: 769px) {
+    body {
+        font-size: 18px;
+    }
+    .container1 {
+        max-width: 70%;
+    }
+    /* weitere Anpassungen für große Bildschirme */
 }
-label {
-    background-image: none;
-}
-.nav__links{
-    display: block;
-}
-.nav__links-toggle:checked + label {
-    background-image: none;
-}
-} */
+
 
 body{
     /*background-color: #e5e1d6;*/
