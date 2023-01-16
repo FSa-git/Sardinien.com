@@ -47,7 +47,7 @@
       }
   }
 
-  /* @media only screen and (min-width: 768px) { nav ul li {
+  /* @media only screen and (min-width: 400px) { nav ul li {
     display:inline-block;
 }
 nav ul li a {
@@ -61,10 +61,10 @@ nav ul li:last-child a {
 label {
     background-image: none;
 }
-#menu {
+.nav__links{
     display: block;
 }
-#menu-toggle:checked + label {
+.nav__links-toggle:checked + label {
     background-image: none;
 }
 } */
@@ -182,6 +182,7 @@ nav{
     display: inline-block;
     padding: 0px 20px;
     background-color: rgba(0, 136, 169, 1);
+    margin-right: 10px;
 }
 
 .nav__links li a {
