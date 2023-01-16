@@ -214,6 +214,11 @@ button:hover{
 }
 
 .description2{
+    text-align: left;
+    
+}
+
+.description2 p{
     text-align: center;
 }
 
