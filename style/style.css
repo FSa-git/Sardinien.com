@@ -18,6 +18,14 @@
     .container1 {
             max-width: 540px;
         }
+        /* Hide navigation links on small screens */
+    nav ul {
+        display: none;
+    }
+    /* Show menu toggle button on small screens */
+    #menu-toggle {
+        display: block;
+    }
     }
 
     /* @media (max-width: 768px) {
@@ -26,7 +34,10 @@
             }
         } */
 
-  @media (max-width: 480px) {
+  @media (max-width: 400px) {
+    .container1 {
+        max-width: 540px;
+    }
     .titelbild{
         max-width: 100%;
         height: auto;
@@ -35,7 +46,7 @@
         display: none; /* hide the navigation links */
       }
       /* show the hamburger menu */
-      #menu-toggle {
+     .nav__links-toggle {
         display: block;
       }
       label {
@@ -44,8 +55,8 @@
         background-image: url(/images/menu_toggle.png);
         background-repeat: no-repeat;
         background-size: contain; /* scale the image to fit the element */
-      }
-  }
+      } 
+    }
 
   /* @media only screen and (min-width: 400px) { nav ul li {
     display:inline-block;
@@ -172,6 +183,10 @@ nav{
     left: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.387);
+}
+
+nav ul{
+    display: flex;
 }
 
 .nav__links {
