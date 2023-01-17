@@ -72,9 +72,6 @@
 
 body{
     /*background-color: #e5e1d6;*/
-    /*background-color: linear-gradient(to top, #5200ff, #3300a0, #1f0062, black, black);*/
-    /*background: linear-gradient(to top, #e5e1d6, #006ba0, #006248, rgb(74, 74, 74), black);*/
-    /* background: linear-gradient(0deg, #E5E1D6, #0087A9, #004B59, #27187E, black); */
     background: linear-gradient(0deg, #5e807f, #ffca67, #F7CA77, #E5E1D6, #ffffff);
     font-family: Arial, Helvetica, sans-serif;
     height: auto;
@@ -113,10 +110,6 @@ label {
     height: auto;
     padding-top: 2px;    
 }
-/*text{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-}*/
 
 .container1{
     margin:0 auto; /* this will center the page */
@@ -228,8 +221,6 @@ button:hover{
     text-align: center;
 }
 
-.tab1{
-}
 .tab2{
     float: right;
 }
@@ -261,16 +252,7 @@ table{
     border: 2px solid white;
     overflow: hidden;
 }
-/*
-.parent2{
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 250px;
-    overflow: hidden;
-}
-*/
+
 .parent1:hover img{
     transform: scale(1.1);
 }
@@ -318,15 +300,7 @@ table{
     color: white;
     font-size: medium;
 }
-/*
-.endesection{
-    background-color: black;
-    width: 100%;
-    height: 150px;
-    margin-block: 0%;
-    
-}
-*/
+
 .description{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -339,7 +313,6 @@ table{
     cursor: pointer;
     transition: all 0.3s ease 0s;
     border-radius: none;
-    
 }
 
 .lesemehr:hover{
@@ -349,7 +322,6 @@ h2{
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 .source{
     color: black;
 }
@@ -379,11 +351,6 @@ h2{
 .fuss_main:hover{
     color: black;
     background-color: #ffca67;
-}
-
-.fusscnt1{
-}
-.fusscnt2{   
 }
 .werbung{
     width: 200px;
