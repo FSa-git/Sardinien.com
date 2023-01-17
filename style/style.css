@@ -73,7 +73,7 @@
 body{
     /*background-color: #e5e1d6;*/
     background: linear-gradient(0deg, #5e807f, #ffca67, #F7CA77, #E5E1D6, #ffffff);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     height: auto;
     width: 100%;
 }
@@ -130,6 +130,7 @@ h2{
 img{
     width: 100%;
     max-height: 500px;
+    display: flex;
 }
 
 li,a,button{
@@ -294,13 +295,6 @@ table{
 .Ende{
     color: white;
 }
-
-.zitat{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: medium;
-}
-
 .description{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -318,10 +312,7 @@ table{
 .lesemehr:hover{
     background-color: rgba(0, 135, 169, 0.574);
 }
-h2{
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+
 .source{
     color: black;
 }
