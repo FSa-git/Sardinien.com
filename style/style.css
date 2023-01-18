@@ -147,10 +147,6 @@ header{
     align-items: center;
     padding: 30px 10%;
 }
-.cta{
-    margin-left: 40px;
-}
-
 .logo{
     cursor: pointer;
     max-height: 150px;
