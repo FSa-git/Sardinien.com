@@ -1,37 +1,5 @@
 /* Media Query für kleine Bildschirme */
 
-/* @media (min-width: 400px) {
-  .container1 {
-      max-width: 540px;
-  }
-  .titelbild{
-      max-width: 100%;
-      height: auto;
-  }
-  .nav__links {
-      display: none; /* hide the navigation links
-    }
-    /* show the hamburger menu
-   .nav__links-toggle {
-      display: block;
-    }
-    label {
-      display: block;
-      cursor: pointer;
-      background-image: url(/images/menu_toggle.png);
-      background-repeat: no-repeat;
-      background-size: contain; /* scale the image to fit the element
-    }
-  } */
-
-/* Media Query für kleine Bildschirme */
-/*@media (max-width: 720px) {
-    .item {
-      flex-basis: 100%;
-      width: 100%; /* take the full width of the screen
-    }
-  }*/
-
   body {
     /*background-color: #e5e1d6;*/
     background: linear-gradient(0deg, #5e807f, #ffca67, #f7ca77, #e5e1d6, #ffffff);
@@ -98,8 +66,9 @@
   }
   
   #menu-toggle:checked + label {
-    /*background-image: url('../images/toggle-x.png');*/
-    /* Toggl X*/
+    /* X - Toggle, fürs schließen */
+    background-image: url('../images/x-lg.svg');
+    
   }
   
   .titelbild {
