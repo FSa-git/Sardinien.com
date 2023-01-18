@@ -294,11 +294,6 @@
     color: white;
   }
   
-  .description {
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-  }
-  
   .lesemehr {
     text-decoration: underline;
     color: black;
@@ -385,6 +380,9 @@
     flex-wrap: wrap;
   }
   .extraseitee{
-    background-image: url('../images/cagliari_stadt.jpg');
-    background-size: 1080px;
+    /* Hintergrund Bild für die Stadt-Seite */
+    background-image: url('../images/Blurr_Background.jpg');
+    background-size: cover;
+    color: white;
+
   }
