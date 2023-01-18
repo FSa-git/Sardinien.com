@@ -94,6 +94,11 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
   }
+  h3{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+  }
   
   img {
     width: 100%;
@@ -384,5 +389,7 @@
     background-image: url('../images/Blurr_Background.jpg');
     background-size: cover;
     color: white;
-
+  }
+  .src__list{
+    list-style: square;
   }
