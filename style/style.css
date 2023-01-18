@@ -384,4 +384,7 @@
     /* justify-content: space-between; */
     flex-wrap: wrap;
   }
-  
+  .extraseitee{
+    background-image: url('../images/cagliari_stadt.jpg');
+    background-size: 1080px;
+  }
