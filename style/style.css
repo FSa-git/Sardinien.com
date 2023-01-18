@@ -1,5 +1,5 @@
   body {
-    /*background-color: #e5e1d6;*/
+    /* background-color: #e5e1d6; */
     background: linear-gradient(0deg, #5e807f, #ffca67, #f7ca77, #e5e1d6, #ffffff);
     font-family: Georgia, 'Times New Roman', Times, serif;
     height: auto;
@@ -8,17 +8,22 @@
     margin: 0;
   }
   
-  /* Media Query für kleine Bildschirme */
+  /* Media Query für kleine Bildschirme (Smartphone) */
   @media only screen and (max-width: 480px) {
     body {
       font-size: 1.5rem;
     }
   }
   
-  /* Anpassung für mittelgroße Bildschirme (z.B. Tablets) */
+  /* Anpassung für mittelgroße Bildschirme (Tablet) */
   @media only screen and (min-width: 481px) and (max-width: 768px) {
     body {
       font-size: 1.25rem;
+    }
+    h1 {
+      color: black;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-style: italic;
     }
     .item {
       flex-basis: 100%;
@@ -26,18 +31,13 @@
     }
   }
   
-  /* Anpassung für große Bildschirme (z.B. Desktops) */
+  /* Anpassung für große Bildschirme (Desktop) */
   @media only screen and (min-width: 769px) {
     body {
       font-size: 18px;
     }
   }
-  
-  /* Schrift Größe */
-  html {
-    font-size: 105%;
-  }
-  
+   
   /* Toggle fürs öffnen */ 
   nav label {
     cursor: pointer;
@@ -85,6 +85,7 @@
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
+    /* font-size: 2.5rem; */
   }
   
   h2 {
