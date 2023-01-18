@@ -328,6 +328,10 @@
     font-weight: bold;
     font-style: oblique;
   }
+
+  .centerlink:hover{
+    background-color: rgba(0, 0, 0, 0.387);
+  }
   
   .fuss {
     background-color: rgba(0, 0, 0, 0.489);
