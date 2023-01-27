@@ -8,7 +8,7 @@ Moreover, the client get to know some facts about the specific locations and mor
 > **Warning**
 > This is work in progress. I'm building this for a Webdev-project. You can follow the progress!  🙌🏻
 
-## Steps of the project
+## Project-Task
 
 As our task was to create a fictional website about something, I started to inspire other similar websites for holiday locations. 
 Hence, I chose for doing a website for the superb Island of Sardinia. 
