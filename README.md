@@ -6,7 +6,7 @@ Sardinia.com is a free invented website about the Italian Island Sardinia. It sh
 Moreover, the client get to know some facts about the specific locations and more on..
 
 > **Warning**
-> This is work in progress. I'm building this for a Webdev-project. You can follow the progress! 🙌🏻
+> This is work in progress. I'm building this for a Webdev-project. You can follow the progress!  🙌🏻
 
 ## Steps of the project
 
