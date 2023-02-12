@@ -4,7 +4,7 @@
 
 ## Summary
 
-Sardinia.com is a free invented website about the Italian Island Sardinia. It should inspirate the client on organizing a holiday in Sardinia. 
+Sardinia.com is a free invented website about the Italian Island, Sardinia. It should inspirate the client on organizing a holiday in Sardinia. 
 Moreover, the client get to know some facts about the specific locations and more on..
 
 > **Warning**
