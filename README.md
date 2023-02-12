@@ -17,7 +17,7 @@ Hence, I chose for doing a website for the superb Island of Sardinia.
 
 - Due to the fact that I'm currently studying in Germany, I programmed the whole website in German.
 - All the images that are shown on this website are totally legal downloaded on unsplash.com 
-- Informations about Sardinia where all searched on sources as Wikipedia and Google (See Source Section on the Website)
+- Informations about Sardinia were all be searched on sources as Wikipedia and Google (See Source Section on the Website)
 
 ## Viewcounter
 
