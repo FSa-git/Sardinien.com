@@ -18,7 +18,3 @@ As our task was to create a fictional website about something, I started to insp
 - Due to the fact that I'm currently studying in Germany, I programmed the whole website in German.
 - All the images that are shown on this website are totally legal and downloaded on unsplash.com 
 - Information about Sardinia was all searched on sources like Wikipedia and Google (See Source Section on the Website)
-
-## Viewcounter
-
-[![Image of https://github.com/FSa-git/myFirstViewCounter](https://github.com/FSa-git/myFirstViewCounter/blob/master/svg/profile/badge.svg)](https://github.com/FSa-git/myFirstViewCounter)
